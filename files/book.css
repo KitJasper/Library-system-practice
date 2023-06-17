@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(60deg, #ffadad, #fdffb6);
+    background-size: cover;
+}
+
+/*start - navbar css*/
+.header {
+    padding: 1%;
+}
+
+.navbar {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+    font-size: 15px;
+    color: black;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.navbar img {
+    margin-right: 20%;
+    margin-left: 30%;
+}
+
+/* start - navbar icons */
+.list {
+    list-style-type: none;
+}
+
+.list,
+.list-items {
+    margin-left: auto;
+    display: inline-block;
+}
+
+.menu {
+    color: rgb(73, 15, 245);
+}
+
+/* end */
+
+/* start - responsiveness of navbar */
+@media all and (max-width: 540px) {
+    .logo {
+        position: absolute;
+        top: 2%;
+        left: 3%;
+    }
+
+    .menu {
+        top: 1%;
+        right: 1%;
+        position: absolute;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .list .list-items {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .bottom {
+        font-size: 10px;
+    }
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+      .card{
+        height: 100px;
+      }
+}
+
+/* end */
+
+/*start - body*/
+
+.body {
+    margin: auto;
+    width: 50%;
+    height: 120vh;
+    overflow: hidden;
+}
+
+/* start - container of login css*/
+.wrapper {
+    display: flex;
+    position: relative;
+    top: 2%;
+    height: 100vh;
+}
+
+/* start - container of text css */
+
+.overlay {
+    padding: 2%;
+}
+
+.overlay h1 {
+    margin: 5% 0% 2% 0%;
+    font-size: 8vmax;
+    line-height: 1;
+}
+
+.overlay h5 {
+    margin: 2% 0% 0% 0%;
+}
+
+.overlay p {
+    margin: 5% 0% 5% 0%;
+}
+
+/* end */
+
+/* start - login using css */
+
+.alternate {
+    text-align: center;
+    margin: 4%;
+    font-size: 25px;
+}
+
+.alternate img {
+    width: 50px;
+    margin:0px 15px;
+}
+
+.alternate h4 {
+    margin: 2%;
+}
+/* end */
+
+/* start - right side of login */
+
+.right {
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right h1 {
+    position: relative;
+    top: 6%;
+    text-align: center;
+    margin: 2%;
+}
+
+/* start - bookshelf css */
+.shelf {
+    position: relative;
+    top: 13%;
+    text-align: center;
+}
+.row{
+    margin: 1px 5px;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 0 2px;
+    height: 130px;
+    margin: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 130px;
+}
+.card p{
+    font-size: smaller;
+}
+.card p.small{
+    font-size: x-small !important;
+}
+.card form input:hover{
+    cursor: pointer;
+}
+/*Stop*/
+
+/* register css */
+.reg a {
+    text-decoration: none;
+    color: purple;
+}
+.reg{
+    top: 17%;
+    position: relative;
+    text-align: center;
+}
+
+/* start - submit button css */
+.btn {
+    padding: 15px;
+    width: 90%;
+    border-radius: 1px;
+    background: #f1f1f1;
+    transition: .2s ease-in;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* end */

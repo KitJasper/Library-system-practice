@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: linear-gradient(60deg, #ffadad, #fdffb6);
+    background-size: cover;
+    margin: 0;
+}
+
+.header {
+    padding: 1%;
+}
+
+.navbar {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+    font-size: 15px;
+    color: black;
+    margin: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.navbar img {
+    margin-right: 15%;
+    margin-left: 30%;
+}
+
+/* start - navbar icons */
+.list {
+    list-style-type: none;
+}
+
+.list,
+.list-items {
+    margin-left: auto;
+    display: inline-block;
+}
+
+.menu {
+    color: rgb(73, 15, 245);
+}
+
+.body {
+    margin: 2% auto;
+    width: 97%;
+    height: 660px;
+    overflow: none;
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    border: 1px solid;
+    background-size: cover;
+    text-decoration: none;
+    color: white;
+}
+
+img.background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px)
+}
+
+.text {
+    position: relative;
+    top: 40%;
+    font-size: x-large;
+}
+
+.bottom {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.books-container {
+    width: 100%;
+    height: 220px;
+    border: 1px solid blue;
+}
+.items:hover {
+    cursor: pointer;
+}
+/*Button group choices*/
+.btn-group button{
+    padding: 20px 50px;
+    font-size: x-large !important;
+    width: 33%;
+    border: none;
+    background: #ee9b00;
+}
+.btn-group button:hover{
+    transition: .5s;
+    background: #ca6702;
+    cursor: pointer;
+}
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
